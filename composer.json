@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-subscriptions",
+    "name": "codesaneio/laravel-subscriptions",
     "description": "Rinvex Subscriptions is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful underlying to afford solid platform for your business.",
     "type": "library",
     "keywords": [
@@ -12,12 +12,12 @@
         "subscription"
     ],
     "license": "MIT",
-    "homepage": "https://rinvex.com",
+    "homepage": "https://codesane.io",
     "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-subscriptions/issues",
-        "source": "https://github.com/rinvex/laravel-subscriptions",
-        "docs": "https://github.com/rinvex/laravel-subscriptions/blob/master/README.md"
+        "email": "contact@codesane.io",
+        "issues": "https://github.com/codesaneio/laravel-subscriptions/issues",
+        "source": "https://github.com/codesaneio/laravel-subscriptions",
+        "docs": "https://github.com/codesaneio/laravel-subscriptions/blob/master/README.md"
     },
     "authors": [
         {
@@ -34,6 +34,10 @@
         {
             "name": "The Generous Laravel Community",
             "homepage": "https://github.com/rinvex/laravel-subscriptions/contributors"
+        },
+        {
+            "name": "Codesane",
+            "homepage": "https://codesane.io"
         }
     ],
     "require": {
@@ -43,7 +47,7 @@
         "illuminate/support": "~5.7.0",
         "nesbot/carbon": "~1.22",
         "rinvex/laravel-cacheable": "^1.0.0",
-        "rinvex/laravel-support": "v1.0.0",
+        "rinvex/laravel-support": "^1.0.0",
         "spatie/eloquent-sortable": "^3.4.0",
         "spatie/laravel-sluggable": "^2.1.0",
         "spatie/laravel-translatable": "^2.1.0",
