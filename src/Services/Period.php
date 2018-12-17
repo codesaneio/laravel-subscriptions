@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare (strict_types = 1);
 
 namespace Rinvex\Subscriptions\Services;
 
@@ -47,9 +47,11 @@ class Period
      */
     public function __construct($interval = 'month', $count = 1, $start = '')
     {
+        $this->interval = $interval;
+
         if (empty($start)) {
             $this->start = now();
-        } elseif (! $start instanceof Carbon) {
+        } elseif (!$start instanceof Carbon) {
             $this->start = new Carbon($start);
         } else {
             $this->start = $start;
@@ -60,7 +62,7 @@ class Period
         }
 
         $start = clone $this->start;
-        $method = 'add'.ucfirst($this->interval).'s';
+        $method = 'add' . ucfirst($this->interval) . 's';
         $this->end = $start->{$method}($this->period);
     }
 
